@@ -1,0 +1,127 @@
+body {
+    font-family: montserrat;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+}
+
+#wrapper {}
+
+#header {}
+
+#logo {
+    width: 20%;
+    float: left;
+}
+
+#logo_img {
+    width: 100%;
+    height: 35px;
+    aspect-ratio: 2/1;
+}
+
+#register {
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+#menu {}
+
+#menu_bar {
+    background: blue;
+}
+
+.menu_item {
+    display: inline-block;
+    /* Hiện danh sách trên 1 dòng và loại bỏ các chỉ mục */
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu_item:hover {
+    background: #ccc;
+    color: red;
+}
+
+#main_content {}
+
+#left_menu {}
+
+#content {}
+
+.item {
+    /* width: 29%; */
+    float: left;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 20px;
+    padding: 10px;
+    background: rgb(255, 255, 170);
+}
+
+.img_item_frame {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.img_item {
+    width: 90%;
+    aspect-ratio: 4/3;
+    border-radius: 20px;
+    transition: 1000ms ease-in-out;
+}
+
+.img_item:hover {
+    transform: scale(1.1);
+    transition: 1000ms ease-in-out;
+}
+
+.item_title {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#content p {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+span.price {
+    font-weight: bold;
+    color: blue;
+}
+
+span.old_price {
+    font-weight: 400;
+    color: red;
+    text-decoration: line-through;
+}
+
+p.para_button {
+    text-align: center;
+}
+
+button.add_basket {
+    border-radius: 20px;
+    font-size: 24px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: coral;
+}
+
+.add_basket:hover {
+    background-color: rgb(11, 221, 186);
+}
+
+
+#footer {
+    background-color: rgb(3, 57, 66);
+    color: white;
+}
+
+.carousel-item img {
+    aspect-ratio: 4/1;
+}
